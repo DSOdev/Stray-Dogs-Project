@@ -1,0 +1,189 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Josefin Sans";
+    }
+
+    .fonte-principal {
+        font-family: "Josefin Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 500px;
+        font-style: normal;
+    }
+
+    h1 {
+        color: white;
+        margin-top: 30px;
+    }
+
+    p {
+        color: white;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        color: white;
+        background-color: black;
+        border-radius: 2px;
+        border: none;
+        height: 50px;
+        width: 200px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .botao:hover {
+        transform: scale(1.07);
+        transition: 0.2s ease-in-out;
+        opacity: 0.7;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 540px;
+        margin-bottom: 40px;
+    }
+
+    .team {
+        height: 500px;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    .master-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 100px;
+        height: 100vh;
+    }
+
+    .sinopse {
+        width: 40%;
+    }
+
+    .video {
+        position: fixed;
+        top: 0;
+        z-index: -1;
+    }
+
+    video {
+        min-height: 100%;
+        min-width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .mask {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+        position: fixed;
+        top: 0;
+    }
+
+    .zap-link img {
+        height: 50px;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+    }
+
+    .zap-link:hover {
+        opacity: 0.7;
+    }
+
+    .header {
+        height: 50px;
+        font-size: large;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        cursor: pointer;
+    }
+
+    .header img {
+        height: 45px;
+        position: relative;
+        left: 60px;
+        top: 45px;
+    }
+
+    .header a {
+        color: white;
+        position: relative;
+        left: 330px;
+        top: 30px;
+    }
+
+    .header a:hover {
+        transform: scale(1.15);
+        transition: 0.2s ease-in-out;
+        color: grey;
+    }
+
+    .formulario {
+        background-color: black;
+        display: flex;
+        gap: 17px;
+        flex-direction: column;
+        position: fixed;
+        top: 250px;
+        left: -330px;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    input {
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 5px;
+        outline-color: rgb(49, 10, 0);
+    }
+
+    textarea {
+        height: 150px;
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding-left: 10px;
+        outline-color: rgb(49, 10, 0);
+    }
+
+    .request {
+        color: rgb(255, 255, 255);
+        background-color: rgb(116, 116, 116);
+        border-radius: 2px;
+        border: none;
+        height: 50px;
+        width: 300px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .mask-form {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        /* background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%); */
+    }
+
+
+    /*  
+    inicial
+        top: 250px;
+        left: -330px;
+    final
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
