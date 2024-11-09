@@ -39,7 +39,7 @@
     .botao:hover {
         transform: scale(1.07);
         transition: 0.2s ease-in-out;
-        opacity: 0.7;
+        opacity: 0.9;
     }
 
     .logo {
@@ -170,13 +170,13 @@
         font-weight: bold;
     }
 
-    .mask-form {
+    /* .mask-form {
         position: fixed;
         top: 0;
         width: 100vw;
         height: 100vh;
-        /* background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%); */
-    }
+        background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    } */
 
 
     /*  
