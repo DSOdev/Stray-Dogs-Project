@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="mask-form"></div>
+    <div class="mask-form" onclick="hiddenform()"></div>
     <div class="header">
         <img src="./img/Stray Dogs Logo.png" alt="">
         <a>Inicio</a>
@@ -62,13 +62,15 @@
                 resolver
                 qualquer
                 mistério e a proteger os que buscam nossa ajuda, não importa o custo.</p>
-                
+
             <a href="https://wa.me/819034025668?text=Gostaria%20de%20conversar%20diretamente%20com%20a%20agencia%20de%20detetives%20armados%20de%20yokohama"
                 class="zap-link">
                 <img src="./img/whatsapp.png" alt="link do whatsapp para contato">
             </a>
 
-            <button class="botao">Enviar Solicitação</button>
+            <button class="botao" onclick="showform()">
+                Enviar Solicitação
+            </button>
         </div>
 
         <div>
@@ -82,13 +84,18 @@
         <div class="mask"></div>
     </div>
 
-    <form class="formulario">
-        <input placeholder="Nome">
-        <input placeholder="Email">
-        <input placeholder="Telefone">
-        <textarea placeholder="Motivo da Solicitação"></textarea>
-        <button class="request">Requisitar Chamado</button>
+    <form 
+        class="formulario" 
+        action="https://formcarry.com/s/kTm7ppS-Hgj" 
+        method="POST" 
+        enctype="multipart/form-data">
+            <input placeholder="Nome" type="text" name="nome">
+            <input placeholder="Email" type="email" name="email">
+            <input placeholder="Telefone" type="tel" name="telefone">
+            <textarea placeholder="Motivo da Solicitação" name="explicaçao"></textarea>
+            <button class="request" type="submit">Requisitar Chamado</button>
     </form>
 </body>
+<script src="scripts.js"></script>
 
 </html>

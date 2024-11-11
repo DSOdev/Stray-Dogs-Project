@@ -135,10 +135,11 @@
         gap: 17px;
         flex-direction: column;
         position: fixed;
-        top: 250px;
-        left: -330px;
+        top: -385px;
+        left: 38.1%;
         padding: 20px;
         border-radius: 7px;
+        transition: top 0.2s ease-in-out
     }
 
     input {
@@ -170,20 +171,22 @@
         font-weight: bold;
     }
 
-    /* .mask-form {
+    .mask-form {
+        visibility: hidden;
         position: fixed;
         top: 0;
         width: 100vw;
         height: 100vh;
         background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    } */
+        transition: visibility 0.3s ease-in-out;
+    }
 
 
     /*  
     inicial
-        top: 250px;
-        left: -330px;
+        top: -385px;
+        left: 37.9%;
     final
-        top: 250px;
+        top: 240px;
         left: 50%;
         transform: translateX(-50%);
